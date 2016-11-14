@@ -214,8 +214,8 @@ body {
 
 .page-left {
 	left: 0;
-	outline: 5px solid #34495e; 
-	background: #34495e;
+	outline: 5px solid #21242b; 
+	background: #21242b;
 	color: #fff;
 	text-align: right;
 	-webkit-transform: translateX(-100%);
@@ -223,7 +223,7 @@ body {
 }
 
 .splitlayout.open-left {
-	background: #34495e;
+	background: #21242b;
 }
 
 /* Inner page content */
@@ -237,8 +237,8 @@ body {
 
 .page-inner h2 {
 	margin: 0 0 1em 0;
-	font-weight: 300;
-	font-size: 2.4em;
+	font-weight: 400;
+	/*font-size: 2.4em;*/
 }
 
 .page-inner p {
@@ -442,4 +442,144 @@ body {
 
 @media screen and (max-width: 320px) {
 	body { font-size: 70%; }
+}
+
+
+/*  right  */
+
+.blog-title{
+	font-family: 'Trebuchet MS';
+	font-size: 52px;
+	color: #000;
+}
+
+.title{
+	font-family: 'Trebuchet MS';
+	color: #000;
+	font-size: 28px;
+}
+
+.subtitle{
+	font-family: 'Trebuchet MS';
+	font-size: 14px;
+	color: #00c888;
+}
+
+.article{
+	margin: 20px 0;
+	overflow: auto;
+}
+
+.entry-meta span{
+	color: #975509;
+	font-size: 15px;
+	margin: 0 5px;
+}
+
+.entry-meta span a{
+	background: #975509;
+	padding: 3px 10px;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 11px;
+}
+
+.entry-summary{
+	overflow: auto;
+	margin: 20px 0;
+}
+
+.entry-summary h3{
+	font-family: 'helvetica';
+	font-size: 20px;
+	color: #777;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+.entry-summary p{
+	font-family: 'helvetica';
+	font-size: 18px;
+	line-height: 24px;
+	color: #333;
+}
+
+.button-article{
+	color: #fff;
+	font-family: 'helvetica';
+	font-size: 16px;
+	background: #00c888;
+	padding: 10px 20px;
+	border-radius: 3px;
+}
+
+.button-article:hover{
+	background: #975509;
+	color: white; 
+}
+
+.article-separator{
+	height: 4px;
+	background: #ddd;
+	width: 100%;
+}
+
+/*  left */
+.page-left .blog-title{
+	font-family: 'Oswald';
+	color: #e93838;
+}
+
+.page-left .subtitle{
+	color: #ccc;
+}
+
+.page-left .title{
+	color: #fff;
+}
+
+.page-left .button-article{
+	color: #e93838;
+	font-family: 'Lato';
+	font-size: 16px;
+	background: black;
+	padding: 10px 20px;
+	border-radius: 3px;
+}
+
+.page-left .entry-summary p{
+	font-family: 'helvetica';
+	font-size: 18px;
+	line-height: 24px;
+	color: #ccc;
+	font-weight: 300;
+}
+
+.page-left .entry-summary h3{
+	font-family: 'helvetica';
+	font-size: 20px;
+	color: #ccc;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+
+.page-left  .entry-meta span a{
+	background: #e93838;
+	padding: 3px 10px;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 11px;
+}
+
+.page-left .entry-meta span{
+	color: red;
+	font-size: 15px;
+	margin: 0 5px;
+}
+
+.page-left .article-separator{
+	height: 4px;
+	background: #333;
+	width: 100%;
 }
