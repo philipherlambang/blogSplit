@@ -1,0 +1,119 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+.navbar-custom-type-1{
+	background: rgba(0,0,0,1);
+}
+
+.nav>li>a{
+	color: #db3637;
+	font-family: 'Oswald';
+	/*text-transform: uppercase;*/
+}
+
+.navbar-brand{
+	color: #fff;
+	font-family: 'Oswald';
+	text-transform: uppercase;
+}
+
+.navbar-brand:hover{
+	color: #fff;
+}
+
+.nav>li>a:hover{
+	background: none;
+	color: rgba(255,255,255,1);
+}
+
+.blog-title{
+	font-family: 'Oswald';
+	color: #e93838;
+}
+
+.subtitle{
+	color: #ccc;
+	font-size: 14px;
+	font-family: 'Lato';
+}
+
+.title{
+	color: #fff;
+	font-family: 'Oswald';
+}
+
+figure{
+	margin: 30px 0;
+}
+
+.button-article{
+	color: #e93838;
+	font-family: 'Lato';
+	font-size: 16px;
+	background: black;
+	padding: 10px 20px;
+	border-radius: 3px;
+}
+
+.entry-summary p{
+	font-family: 'helvetica';
+	font-size: 18px;
+	line-height: 24px;
+	color: #ccc;
+	font-weight: 300;
+}
+
+.entry-summary h3{
+	font-family: 'helvetica';
+	font-size: 20px;
+	color: #ccc;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+.entry-date{
+	margin-bottom: 15px;
+	float: left;
+}
+
+ .entry-meta span a{
+	background: #e93838;
+	padding: 3px 10px;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 11px;
+	font-family: "Lato";
+}
+
+.entry-tags{
+	overflow: auto;
+}
+
+.entry-meta span{
+	color: red;
+	font-size: 15px;
+	/*margin: 0 5px;*/
+}
+
+.article-separator{
+	height: 4px;
+	background: #333;
+	width: 100%;
+}
+
+.navbar-toggle{
+	background: #24262f;
+}
+
+.navbar-toggle .icon-bar{
+	height: 1px;
+	background: #fff;
+}
+
+
+/* Custom, iPhone Retina */ 
+@media (min-width : 320px) and (max-width : 480px) { 
+	figure a img{
+		width: 100%;
+	}
+}
+
