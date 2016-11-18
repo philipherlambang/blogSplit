@@ -1,0 +1,115 @@
+.navbar-custom-type-1{
+	background: rgba(148,52,118,1);
+}
+
+.nav>li>a{
+	color: rgba(255,255,255,0.5);
+	font-family: 'Trebuchet MS'
+}
+
+.navbar-brand{
+	color: #fff;
+}
+
+.navbar-brand:hover{
+	/*background: purple;*/
+	color: #fff;
+}
+
+.nav>li>a:hover{
+	background: none;
+	color: rgba(255,255,255,1);
+}
+
+.blog-title{
+	font-family: 'Trebuchet MS';
+	font-size: 52px;
+	color: #000;
+}
+
+.title{
+	font-family: 'Trebuchet MS';
+	color: #000;
+	font-size: 28px;
+}
+
+.subtitle{
+	font-family: 'Trebuchet MS';
+	font-size: 14px;
+	color: #00c888;
+}
+
+.article{
+	margin: 20px 0;
+	overflow: auto;
+}
+
+.entry-meta span{
+	color: #975509;
+	font-size: 15px;
+	margin: 0 5px;
+}
+
+.entry-meta span a{
+	background: #975509;
+	padding: 3px 10px;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 11px;
+}
+
+.entry-summary{
+	overflow: auto;
+	margin: 20px 0;
+}
+
+.entry-summary h3{
+	font-family: 'helvetica';
+	font-size: 20px;
+	color: #777;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+.entry-summary p{
+	font-family: 'helvetica';
+	font-size: 18px;
+	line-height: 24px;
+	color: #333;
+}
+
+.button-article{
+	color: #fff;
+	font-family: 'helvetica';
+	font-size: 16px;
+	background: #00c888;
+	padding: 10px 20px;
+	border-radius: 3px;
+}
+
+.button-article:hover{
+	background: #975509;
+	color: white; 
+}
+
+.article-separator{
+	height: 4px;
+	background: #ddd;
+	width: 100%;
+}
+
+.navbar-toggle{
+	background: rgba(0,0,0,0.5);
+}
+
+.navbar-toggle .icon-bar{
+	height: 1px;
+	background: #fff;
+}
+
+/* Custom, iPhone Retina */ 
+@media (min-width : 320px) and (max-width : 480px) { 
+	figure a img{
+		width: 100%;
+	}
+}
